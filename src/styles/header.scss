@@ -1,0 +1,61 @@
+.header--container {
+  padding-top: 200px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 1240px;
+  margin: auto;
+  gap: 150px;
+}
+
+.h1-text {
+  font-size: 55px;
+  width: 500px;
+  font-weight: bolder;
+}
+
+.aside-text {
+  color: gray;
+  font-size: 14px;
+}
+
+.input {
+  width: 220px;
+  height: 35px;
+  border-radius: 15px;
+  border: 1px solid rgb(132, 138, 132);
+  outline: none;
+}
+
+.btn-header {
+  color: white;
+  background: green;
+  border: 1px solid green;
+  width: 130px;
+  height: 39px;
+  border-radius: 18px;
+  margin-left: 5px;
+
+
+  &:hover {
+    background: white;
+    color: green;
+    cursor: pointer;
+    ;
+  }
+}
+
+.btn-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.fas {
+  font-size: 17px;
+}
+
+img {
+  border-radius: 70%;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}

@@ -1,0 +1,51 @@
+.navbar--container {
+  height: 8vh;
+  border-bottom: 1px solid green;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  width: 1240px;
+  margin: 20px auto;
+  align-items: center;
+
+  & li:nth-child(2) {
+      margin-left: auto;
+  }
+
+  & li:nth-child(6) {
+    margin-left: auto;
+  }
+}
+
+.link {
+  text-decoration: none;
+  color: green;
+  font-size: 17px;
+  padding: 10px;
+}
+
+.logo {
+  font-family: 'Lobster', cursive;
+  font-size: 27px;
+  font-weight: bolder;
+  text-decoration: none;
+  color: green;
+}
+
+.btn-nav {
+  color: black;
+  width: 130px;
+  height: 43px;
+  border-radius: 30px;
+  border: 1px solid green;
+  background: white;
+  outline: none;
+
+  &:hover {
+    cursor: pointer;
+    background: green;
+    color: white;
+  }
+}
