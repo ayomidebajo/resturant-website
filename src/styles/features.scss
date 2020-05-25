@@ -1,0 +1,45 @@
+.feature--heading {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.h4--features {
+    color: orangered;
+}
+
+
+.p--features {
+    color: gray;
+    font-size: 14px;
+    width: 550px;
+    text-align: center;
+}
+
+.feature--cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card {
+    margin-left: 20px;
+    margin-right: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    background-color: #f1f1f1;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.p--features__cards {
+    color: gray;
+    font-size: 14px;
+}
